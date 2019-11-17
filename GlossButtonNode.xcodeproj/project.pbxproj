@@ -8,22 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		4B69C9DA21149F4600DADE95 /* GlossButtonNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B69C9D821149F4600DADE95 /* GlossButtonNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BDC10C121159ECD004C88B5 /* GlossButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDC10C021159ECD004C88B5 /* GlossButtonNode.swift */; };
 		4BDDC49223816C4D00F0FF3C /* PINOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDDC48E23816C4D00F0FF3C /* PINOperation.framework */; };
 		4BDDC49323816C4D00F0FF3C /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDDC48F23816C4D00F0FF3C /* AsyncDisplayKit.framework */; };
 		4BDDC49423816C4D00F0FF3C /* PINCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDDC49023816C4D00F0FF3C /* PINCache.framework */; };
 		4BDDC49523816C4D00F0FF3C /* PINRemoteImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDDC49123816C4D00F0FF3C /* PINRemoteImage.framework */; };
+		4BDDC4A223816C8D00F0FF3C /* GlossButtonDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDC49623816C8C00F0FF3C /* GlossButtonDescriptor.swift */; };
+		4BDDC4A323816C8D00F0FF3C /* GlossButtonHighlightSurfaceNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDC49723816C8C00F0FF3C /* GlossButtonHighlightSurfaceNode.swift */; };
+		4BDDC4A423816C8D00F0FF3C /* GlossButtonStrokedSurfaceNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDC49823816C8C00F0FF3C /* GlossButtonStrokedSurfaceNode.swift */; };
+		4BDDC4A523816C8D00F0FF3C /* GlossButtonFilledSurfaceNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDC49923816C8D00F0FF3C /* GlossButtonFilledSurfaceNode.swift */; };
+		4BDDC4A923816C8D00F0FF3C /* GlossButtonBodyLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDC49D23816C8D00F0FF3C /* GlossButtonBodyLayout.swift */; };
+		4BDDC4AA23816C8D00F0FF3C /* GlossButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDC49E23816C8D00F0FF3C /* GlossButtonNode.swift */; };
+		4BDDC4AC23816C8D00F0FF3C /* GlossButtonHighlightAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDC4A023816C8D00F0FF3C /* GlossButtonHighlightAnimation.swift */; };
+		4BDDC4AD23816C8D00F0FF3C /* GlossButtonBodyNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDDC4A123816C8D00F0FF3C /* GlossButtonBodyNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B69C9D521149F4600DADE95 /* GlossButtonNode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GlossButtonNode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B69C9D821149F4600DADE95 /* GlossButtonNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlossButtonNode.h; sourceTree = "<group>"; };
 		4B69C9D921149F4600DADE95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4BDC10C021159ECD004C88B5 /* GlossButtonNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlossButtonNode.swift; sourceTree = "<group>"; };
 		4BDDC48E23816C4D00F0FF3C /* PINOperation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINOperation.framework; path = Carthage/Build/iOS/PINOperation.framework; sourceTree = "<group>"; };
 		4BDDC48F23816C4D00F0FF3C /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = Carthage/Build/iOS/AsyncDisplayKit.framework; sourceTree = "<group>"; };
 		4BDDC49023816C4D00F0FF3C /* PINCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINCache.framework; path = Carthage/Build/iOS/PINCache.framework; sourceTree = "<group>"; };
 		4BDDC49123816C4D00F0FF3C /* PINRemoteImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINRemoteImage.framework; path = Carthage/Build/iOS/PINRemoteImage.framework; sourceTree = "<group>"; };
+		4BDDC49623816C8C00F0FF3C /* GlossButtonDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossButtonDescriptor.swift; sourceTree = "<group>"; };
+		4BDDC49723816C8C00F0FF3C /* GlossButtonHighlightSurfaceNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossButtonHighlightSurfaceNode.swift; sourceTree = "<group>"; };
+		4BDDC49823816C8C00F0FF3C /* GlossButtonStrokedSurfaceNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossButtonStrokedSurfaceNode.swift; sourceTree = "<group>"; };
+		4BDDC49923816C8D00F0FF3C /* GlossButtonFilledSurfaceNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossButtonFilledSurfaceNode.swift; sourceTree = "<group>"; };
+		4BDDC49D23816C8D00F0FF3C /* GlossButtonBodyLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossButtonBodyLayout.swift; sourceTree = "<group>"; };
+		4BDDC49E23816C8D00F0FF3C /* GlossButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossButtonNode.swift; sourceTree = "<group>"; };
+		4BDDC4A023816C8D00F0FF3C /* GlossButtonHighlightAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossButtonHighlightAnimation.swift; sourceTree = "<group>"; };
+		4BDDC4A123816C8D00F0FF3C /* GlossButtonBodyNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlossButtonBodyNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +78,16 @@
 		4B69C9D721149F4600DADE95 /* GlossButtonNode */ = {
 			isa = PBXGroup;
 			children = (
+				4BDDC49D23816C8D00F0FF3C /* GlossButtonBodyLayout.swift */,
+				4BDDC4A123816C8D00F0FF3C /* GlossButtonBodyNode.swift */,
+				4BDDC49623816C8C00F0FF3C /* GlossButtonDescriptor.swift */,
+				4BDDC49923816C8D00F0FF3C /* GlossButtonFilledSurfaceNode.swift */,
+				4BDDC4A023816C8D00F0FF3C /* GlossButtonHighlightAnimation.swift */,
+				4BDDC49723816C8C00F0FF3C /* GlossButtonHighlightSurfaceNode.swift */,
+				4BDDC49E23816C8D00F0FF3C /* GlossButtonNode.swift */,
+				4BDDC49823816C8C00F0FF3C /* GlossButtonStrokedSurfaceNode.swift */,
 				4B69C9D821149F4600DADE95 /* GlossButtonNode.h */,
 				4B69C9D921149F4600DADE95 /* Info.plist */,
-				4BDC10C021159ECD004C88B5 /* GlossButtonNode.swift */,
 			);
 			path = GlossButtonNode;
 			sourceTree = "<group>";
@@ -114,7 +135,7 @@
 				TargetAttributes = {
 					4B69C9D421149F4600DADE95 = {
 						CreatedOnToolsVersion = 9.4;
-						LastSwiftMigration = 0940;
+						LastSwiftMigration = 1120;
 					};
 				};
 			};
@@ -150,7 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BDC10C121159ECD004C88B5 /* GlossButtonNode.swift in Sources */,
+				4BDDC4AC23816C8D00F0FF3C /* GlossButtonHighlightAnimation.swift in Sources */,
+				4BDDC4A523816C8D00F0FF3C /* GlossButtonFilledSurfaceNode.swift in Sources */,
+				4BDDC4A223816C8D00F0FF3C /* GlossButtonDescriptor.swift in Sources */,
+				4BDDC4A423816C8D00F0FF3C /* GlossButtonStrokedSurfaceNode.swift in Sources */,
+				4BDDC4A323816C8D00F0FF3C /* GlossButtonHighlightSurfaceNode.swift in Sources */,
+				4BDDC4A923816C8D00F0FF3C /* GlossButtonBodyLayout.swift in Sources */,
+				4BDDC4AD23816C8D00F0FF3C /* GlossButtonBodyNode.swift in Sources */,
+				4BDDC4AA23816C8D00F0FF3C /* GlossButtonNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +243,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -271,6 +300,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -302,7 +332,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -331,7 +360,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.eure.GlossButtonNode;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

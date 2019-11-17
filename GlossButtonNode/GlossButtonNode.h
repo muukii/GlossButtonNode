@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import <AsyncDisplayKit/AsyncDisplayKit.h>
+
 //! Project version number for GlossButtonNode.
 FOUNDATION_EXPORT double GlossButtonNodeVersionNumber;
 
