@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3BA9360700C6D74688642EB8 /* Pods_GlossButtonNode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 089E9D2982A936E448918FFC /* Pods_GlossButtonNode.framework */; };
 		4B69C9DA21149F4600DADE95 /* GlossButtonNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B69C9D821149F4600DADE95 /* GlossButtonNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4BDC10C121159ECD004C88B5 /* GlossButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDC10C021159ECD004C88B5 /* GlossButtonNode.swift */; };
+		4BDDC49223816C4D00F0FF3C /* PINOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDDC48E23816C4D00F0FF3C /* PINOperation.framework */; };
+		4BDDC49323816C4D00F0FF3C /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDDC48F23816C4D00F0FF3C /* AsyncDisplayKit.framework */; };
+		4BDDC49423816C4D00F0FF3C /* PINCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDDC49023816C4D00F0FF3C /* PINCache.framework */; };
+		4BDDC49523816C4D00F0FF3C /* PINRemoteImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BDDC49123816C4D00F0FF3C /* PINRemoteImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		089E9D2982A936E448918FFC /* Pods_GlossButtonNode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlossButtonNode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B69C9D521149F4600DADE95 /* GlossButtonNode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GlossButtonNode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B69C9D821149F4600DADE95 /* GlossButtonNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlossButtonNode.h; sourceTree = "<group>"; };
 		4B69C9D921149F4600DADE95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BDC10C021159ECD004C88B5 /* GlossButtonNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlossButtonNode.swift; sourceTree = "<group>"; };
-		6CF4A7E333560BA61636DA6C /* Pods-GlossButtonNode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlossButtonNode.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlossButtonNode/Pods-GlossButtonNode.release.xcconfig"; sourceTree = "<group>"; };
-		A13629DDB9B51C1F70AD87FB /* Pods-GlossButtonNode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlossButtonNode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlossButtonNode/Pods-GlossButtonNode.debug.xcconfig"; sourceTree = "<group>"; };
+		4BDDC48E23816C4D00F0FF3C /* PINOperation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINOperation.framework; path = Carthage/Build/iOS/PINOperation.framework; sourceTree = "<group>"; };
+		4BDDC48F23816C4D00F0FF3C /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = Carthage/Build/iOS/AsyncDisplayKit.framework; sourceTree = "<group>"; };
+		4BDDC49023816C4D00F0FF3C /* PINCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINCache.framework; path = Carthage/Build/iOS/PINCache.framework; sourceTree = "<group>"; };
+		4BDDC49123816C4D00F0FF3C /* PINRemoteImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINRemoteImage.framework; path = Carthage/Build/iOS/PINRemoteImage.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,28 +31,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BA9360700C6D74688642EB8 /* Pods_GlossButtonNode.framework in Frameworks */,
+				4BDDC49223816C4D00F0FF3C /* PINOperation.framework in Frameworks */,
+				4BDDC49323816C4D00F0FF3C /* AsyncDisplayKit.framework in Frameworks */,
+				4BDDC49523816C4D00F0FF3C /* PINRemoteImage.framework in Frameworks */,
+				4BDDC49423816C4D00F0FF3C /* PINCache.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3B2DCDEE32E7CCB0688DB53D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				089E9D2982A936E448918FFC /* Pods_GlossButtonNode.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		4B69C9CB21149F4600DADE95 = {
 			isa = PBXGroup;
 			children = (
+				4BDDC48F23816C4D00F0FF3C /* AsyncDisplayKit.framework */,
+				4BDDC49023816C4D00F0FF3C /* PINCache.framework */,
+				4BDDC48E23816C4D00F0FF3C /* PINOperation.framework */,
+				4BDDC49123816C4D00F0FF3C /* PINRemoteImage.framework */,
 				4B69C9D721149F4600DADE95 /* GlossButtonNode */,
 				4B69C9D621149F4600DADE95 /* Products */,
-				AF152F2A4957FD3048FD4190 /* Pods */,
-				3B2DCDEE32E7CCB0688DB53D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,15 +71,6 @@
 			path = GlossButtonNode;
 			sourceTree = "<group>";
 		};
-		AF152F2A4957FD3048FD4190 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A13629DDB9B51C1F70AD87FB /* Pods-GlossButtonNode.debug.xcconfig */,
-				6CF4A7E333560BA61636DA6C /* Pods-GlossButtonNode.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -97,7 +89,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B69C9DD21149F4600DADE95 /* Build configuration list for PBXNativeTarget "GlossButtonNode" */;
 			buildPhases = (
-				BECEC553BDA74DADD0793D57 /* [CP] Check Pods Manifest.lock */,
 				4B69C9D021149F4600DADE95 /* Sources */,
 				4B69C9D121149F4600DADE95 /* Frameworks */,
 				4B69C9D221149F4600DADE95 /* Headers */,
@@ -153,27 +144,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		BECEC553BDA74DADD0793D57 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GlossButtonNode-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4B69C9D021149F4600DADE95 /* Sources */ = {
@@ -309,7 +279,6 @@
 		};
 		4B69C9DE21149F4600DADE95 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A13629DDB9B51C1F70AD87FB /* Pods-GlossButtonNode.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -318,6 +287,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = GlossButtonNode/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -336,7 +309,6 @@
 		};
 		4B69C9DF21149F4600DADE95 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CF4A7E333560BA61636DA6C /* Pods-GlossButtonNode.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -345,6 +317,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = GlossButtonNode/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (

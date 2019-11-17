@@ -1,0 +1,16 @@
+PODS:
+  - GlossButtonNode (0.1.0)
+
+DEPENDENCIES:
+  - GlossButtonNode (from `../`)
+
+EXTERNAL SOURCES:
+  GlossButtonNode:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GlossButtonNode: c6d126c9972739cdece750ce53d7506f8cf180c1
+
+PODFILE CHECKSUM: 5052c247a227fcbf054879c0915fa28929c703c3
+
+COCOAPODS: 1.8.4

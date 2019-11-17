@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GlossButtonNode_Example' do
+  pod 'GlossButtonNode', :path => '../'
+
+  target 'GlossButtonNode_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
